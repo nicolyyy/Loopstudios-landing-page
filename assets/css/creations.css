@@ -1,0 +1,46 @@
+@import url(./main.css);
+
+
+.container-creations{
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid red;
+    /* height: 400px; */
+}
+
+.content{
+    max-width: 1180px;
+    padding: 0 10px;
+    border: 1px solid green;
+    margin: 0 auto;
+}
+
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards div{
+    width: 275px;
+    height: 500px;
+    margin: 10px 0;
+    background-size: cover;
+}
+
+.cards div:nth-child(1) {
+    background-image:url(../img/desktop/image-deep-earth.jpg);
+}
+
+.cards div:nth-child(2){
+    background-image:url(../img/desktop/image-night-arcade.jpg);
+}
+
+
+.titulo-creations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

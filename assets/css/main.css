@@ -1,0 +1,26 @@
+:root{
+--White: hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 0%);
+--DarkGray: hsl(0, 0%, 55%);
+--VeryDarkGray: hsl(0, 0%, 41%);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+}
+
+
+.none{
+    display: none;
+}
