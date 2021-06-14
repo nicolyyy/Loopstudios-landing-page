@@ -11,9 +11,34 @@
 .content{
     max-width: 1180px;
     padding: 0 10px; 
-    border: 1px solid green;
-    margin: 0 auto;
+/*     border: 1px solid green;
+ */    margin: 0 auto;
 }
+
+
+.titulo-creations h2{
+    color:var(--Black);
+    margin:40px 0;
+    font-size: 2rem;
+}
+
+
+.btn{
+    background-color:var(--white);
+    border: 1.5px solid var(--Black);
+    padding: 8px 20px ;
+    font-size: 0.7rem;
+    font-weight: bold;
+    width: 150px;
+}
+
+
+.btn:active{
+    background-color: var(--Black);
+    color: var(--White);
+}
+
+
 
 .cards{
     display:flex;
@@ -23,10 +48,21 @@
 
 .cards div{
     width: 275px;
-    height: 500px;
+    height: 490px;
     margin: 10px 0;
+    text-align: center;
     background-size: cover;
+    color: var(--White);  
 }
+
+
+.cards :active{
+    
+    opacity : 0.4; 
+    z-index: 2;
+    
+}
+
 
 .cards div:nth-child(1) {
     background-image:url(../img/desktop/image-deep-earth.jpg);
@@ -34,6 +70,45 @@
 
 .cards div:nth-child(2){
     background-image:url(../img/desktop/image-night-arcade.jpg);
+}
+
+.cards div:nth-child(3){
+    background-image:url(../img/desktop/image-soccer-team.jpg);
+}
+
+.cards div:nth-child(4){
+    background-image:url(../img/desktop/image-grid.jpg);
+}
+
+.cards div:nth-child(5){
+    background-image:url(../img/desktop//image-from-above.jpg);
+}
+
+.cards div:nth-child(6){
+    background-image:url(../img/desktop/image-pocket-borealis.jpg);
+}
+
+.cards div:nth-child(7){
+    background-image:url(../img/desktop/image-curiosity.jpg);
+}
+.cards div:nth-child(8){
+    background-image:url(../img/desktop/image-fisheye.jpg);
+}
+
+.texto-card p{
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    /* border: 5px solid yellow; */
+    height: 490px;
+    text-align: justify;
+    padding-bottom: 40px;
+    font-size: 2rem;    
+}
+
+.texto-card p :active{
+    color: white;
+    
 }
 
 
