@@ -1,1 +1,45 @@
 @import url(./main.css);
+@import url(https://fonts.googleapis.com/css2?family=Alata&display=swap);
+
+body {
+  font-family: 'Alata', sans-serif;
+}
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: var(--Black);
+}
+.footer .social {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social .logo-footer {
+    color: #fff;
+    font-size: 20px;
+}
+.social .social-footer {
+    color: #fff;
+}
+.social .social-footer i {
+    font-size: 25px;
+    margin: 5px;
+}
+.menu-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.conteudo-menu-footer a {
+    font-size: 17px;
+    color: #fff;
+}
+.footer-direitos span{
+    color: var(--DarkGray);
+}
