@@ -1,1 +1,48 @@
 @import url(./main.css);
+
+.hero{
+    background-image: url(../img/desktop/image-hero.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+}
+.hero-text{
+    font-family: 'Josefin Sans', sans-serif;    
+    padding: 2rem;
+    color:hsl(0, 0%, 100%);
+    font-size: 3rem;
+    margin-top: 6rem;
+    margin-left: 9rem;   
+    border-style: solid;
+    border-color: white;
+    height: 14rem;
+    width: 35%;
+}
+header h1{
+    font-family: 'Alata', sans-serif;
+    margin-left: 4rem;
+    font-size: 2rem;
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header ul li a{
+    font-family: 'Alata', sans-serif;
+    font-size: 1rem;
+    color: hsl(0, 0%, 100%);
+}
+header ul li{
+    margin-right: 2rem;
+    display: inline;
+}
+
+header {
+    font-family: 'Josefin Sans', sans-serif;    
+    color:hsl(0, 0%, 100%);
+}
+nav p{
+    color:hsl(0, 0%, 100%);
+    word-spacing: 30px;
+}
